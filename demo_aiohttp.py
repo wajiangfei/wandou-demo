@@ -123,7 +123,7 @@ class ProxyResponse(ProxyBaseResponse):
 
 if __name__ == '__main__':
     session = ProxySession()
-    app_key = "3a7a4caf5ba2ca0fe55218eda65e3b6b"
+    app_key = "xxxxxxxxxxxxxxxxxxxx"
     myauth = auth.Auth(app_key) # 传入app_key
     mywandou = wandou.WandouManager(myauth)  # 传入myauth
 
